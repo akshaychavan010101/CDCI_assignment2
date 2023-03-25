@@ -15,6 +15,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+      
+      - name: Run index.js
+        run: node index.js
+        
       - name: Run ESLint
         run: npx eslint
